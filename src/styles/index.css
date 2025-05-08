@@ -1,11 +1,57 @@
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.semaphoreTop {
+    height: 50px;
+    width: 20px;
+    background-color: black;
 
-*/
+}
+
+.semaphoreBody {
+    height: auto;
+    width: 200px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.light{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color:yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.lighted{
+    box-shadow: 0 0 20px white;
+}
+
+.buttonSelCol.red{
+    background-color: rgb(177, 57, 57);
+}
+
+.buttonSelCol.yellow{
+    background-color: rgb(214, 214, 26)
+}
+
+.buttonSelCol.green{
+    background-color: rgb(43, 173, 43);
+}
+
+.buttonSelCol.purple{
+    background-color: rgb(78, 12, 78);
+}
